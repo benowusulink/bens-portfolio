@@ -1,4 +1,70 @@
+/* NavBar */
+
 nav {
-  text-align: center;
-  border: solid blue 2px;
+  
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
 }
+
+/* NavBar image */
+
+img{
+	height: 250px;
+	width: auto;
+	border: solid rgb(161, 185, 190) 2px;
+	border-radius: 50%;
+	padding: 1%;
+	transition: 2s;
+	margin-top: 1%;
+	margin-left: 1%
+
+}
+
+img:hover{
+	border: solid white 2px;
+	transform: rotate(360deg);
+}
+
+/* NavBar links */
+
+ul{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	height: 100%;
+}
+
+li{
+	margin-right: 6%;
+	width: 15%;
+	height: 60%;
+	text-align: center;
+	padding-top: 3%;
+}
+
+li:hover{
+	border-bottom: solid rgb(161, 185, 190) 2px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+p{
+	color: rgb(224, 224, 224);
+	text-transform: capitalize;
+}
+
+/* Github link */
+
+ion-icon{
+	color: white;
+	font-size: 35px;
+	transition: 0.2s
+}
+
+ion-icon:hover{
+	color: rgb(199, 238, 222);
+	font-size: 40px;
+	border-bottom: rgb(199, 238, 222);
+}
+
