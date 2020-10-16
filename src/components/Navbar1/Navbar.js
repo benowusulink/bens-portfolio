@@ -7,8 +7,8 @@ class Navbar1 extends Component {
     return (
       <nav>
         <img src={logo} alt={`logo`} className={`logo-image`} />
-        <ul>
-          <li>
+        <ul id={`nav-list-ul`}>
+          <li className>
             <p>who i am</p>
           </li>
           <li>
