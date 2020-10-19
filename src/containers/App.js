@@ -1,29 +1,60 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar1 from "../components/Navbar1/Navbar.js";
-import profile from "../assets/profile.png";
-import Footer from "../components/Footer/Footer.js";
+import Navbar1 from "../components/Navbars/Navbar1/Navbar1.js";
+import Navbar2 from "../components/Navbars/Navbar2/Navbar2.js";
+import Home from "../components/Main/Home/Home.js";
+import WhoIAm from "../components/Main/who-i-am/Who-i-am.js";
+import Projects from "../components/Main/Projects/Projects.js";
+import WhatIknow from "../components/Main/what-i-know/What-i-know.js";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = { route: "WhatIknow" };
+  }
+
+  onRouteChange = (route) => {
+    this.setState({ route: route });
+  };
+
   render() {
-    return (
-      <div className={`app`}>
-        <Navbar1 />
-        <main>
-          <div className={`header-text`}>
-            <h1>welcome to bens website</h1>
-            <h3>
-              When you develop a mockup page or backend API is not ready for
-              data fetching and you have to make Frontend Development with
-              static data until it comes, react-lorem-ipsum will create your
-              gibberish texts for you
-            </h3>
+    switch (this.state.route) {
+      case "home":
+        return (
+          <div>
+            <Navbar1 onRouteChange={this.onRouteChange} />
+            <Home />
           </div>
-          <img src={profile} className={`profile-pic`} alt={`profile-pic`} />
-        </main>
-        <Footer className={`footer`} />
-      </div>
-    );
+        );
+      case "WhoIAm":
+        return (
+          <div>
+            <Navbar2 onRouteChange={this.onRouteChange} />
+            <WhoIAm onRouteChange={this.onRouteChange} />
+          </div>
+        );
+      case "Projects":
+        return (
+          <div>
+            <Navbar2 onRouteChange={this.onRouteChange} />
+            <Projects onRouteChange={this.onRouteChange} />
+          </div>
+        );
+      case "WhatIknow":
+        return (
+          <div>
+            <Navbar2 onRouteChange={this.onRouteChange} />
+            <WhatIknow onRouteChange={this.onRouteChange} />
+          </div>
+        );
+      default:
+        return (
+          <div>
+            <Navbar1 onRouteChange={this.onRouteChange} />
+            <Home />
+          </div>
+        );
+    }
   }
 }
 

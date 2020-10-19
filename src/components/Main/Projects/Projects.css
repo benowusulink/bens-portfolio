@@ -1,0 +1,52 @@
+.projects {
+  margin-left: 25%;
+  width: 70%;
+}
+
+.projects-header {
+  width: 100%;
+}
+
+.projects-header h2 {
+  border: solid rgb(161, 185, 190) 2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  width: 30%;
+  margin-left: 35%;
+  color: rgb(161, 185, 190);
+}
+
+.github-info {
+  padding-top: 1%;
+  width: 20%;
+  margin-left: 40%;
+  border: solid rgb(161, 185, 190) 2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  color: rgb(161, 185, 190);
+}
+
+.github-info ion-icon {
+  font-size: 40px;
+  color: green;
+}
+
+.projects-div {
+  margin-top: 2%;
+}
+
+.projects-div-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.projects-div-2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1%;
+}
+
+.projects-section {
+  border: solid rgb(161, 185, 190) 1px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  color: rgb(161, 185, 190);
+  overflow-x: hidden;
+}

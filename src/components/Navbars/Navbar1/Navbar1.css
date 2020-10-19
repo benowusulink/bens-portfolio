@@ -1,6 +1,6 @@
 /* NavBar */
 
-nav {
+#navbar1 {
   height: 120px;
   display: flex;
   justify-content: flex-start;

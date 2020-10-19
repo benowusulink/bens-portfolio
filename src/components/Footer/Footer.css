@@ -2,11 +2,11 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
   height: 6%;
   position: fixed;
   padding-bottom: 3%;
-  border: solid rgb(224, 224, 224) 1px;
+  z-index: +1;
 }
 
 #footer-ul {
@@ -18,21 +18,17 @@ footer {
 #footer-ul li {
   display: flex;
   justify-content: flex-start;
-  border: solid rgb(224, 224, 224) 2px;
 
   color: rgb(224, 224, 224);
   width: 25%;
   height: 100%;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 #footer-ul li p {
   margin-right: 2%;
 }
 
-#footer-ul li:hover {
-  background-color: black;
-}
 #footer-ul li ion-icon {
   font-size: 30px;
   margin-top: 3%;

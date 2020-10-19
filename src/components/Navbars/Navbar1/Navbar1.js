@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "./Navbar.css";
+import "./Navbar1.css";
 import logo from "./assets/logo.png";
 
 class Navbar1 extends Component {
   render() {
     return (
-      <nav>
+      <nav id={`navbar1`}>
         <img src={logo} alt={`logo`} className={`logo-image`} />
         <ul id={`nav-list-ul`}>
           <li className>

@@ -1,0 +1,44 @@
+/* Main div */
+
+.home {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30%;
+  margin-top: 5%;
+}
+
+/* Main header text */
+
+.header-text {
+  width: 60%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+  text-align: center;
+  border: rgb(161, 185, 190) 1px solid;
+}
+
+h1 {
+  font-family: "Bungee", cursive;
+  color: rgb(161, 185, 190);
+}
+
+h3 {
+  color: rgb(161, 185, 190);
+  margin-top: 14%;
+  padding: 2%;
+}
+
+/* Main profile image */
+.profile-pic {
+  border: rgb(161, 185, 190) 2px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+
+.footer {
+  border: solid green 4px;
+}
