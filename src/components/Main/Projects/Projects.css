@@ -1,6 +1,8 @@
 .projects {
   margin-left: 25%;
   width: 70%;
+  overflow-x: hidden;
+  height: 800px;
 }
 
 .projects-header {
@@ -49,4 +51,5 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   color: rgb(161, 185, 190);
   overflow-x: hidden;
+  margin-left: 1%;
 }

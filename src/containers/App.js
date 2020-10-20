@@ -6,11 +6,12 @@ import Home from "../components/Main/Home/Home.js";
 import WhoIAm from "../components/Main/who-i-am/Who-i-am.js";
 import Projects from "../components/Main/Projects/Projects.js";
 import WhatIknow from "../components/Main/what-i-know/What-i-know.js";
+import Contact from "../components/Main/Contact/Contact.js";
 
 class App extends Component {
   constructor() {
     super();
-    this.state = { route: "WhatIknow" };
+    this.state = { route: "Contact" };
   }
 
   onRouteChange = (route) => {
@@ -45,6 +46,13 @@ class App extends Component {
           <div>
             <Navbar2 onRouteChange={this.onRouteChange} />
             <WhatIknow onRouteChange={this.onRouteChange} />
+          </div>
+        );
+      case "Contact":
+        return (
+          <div id={`contact-div`}>
+            <Navbar2 onRouteChange={this.onRouteChange} />
+            <Contact onRouteChange={this.onRouteChange} />
           </div>
         );
       default:
