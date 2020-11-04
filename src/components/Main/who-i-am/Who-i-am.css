@@ -1,64 +1,55 @@
-.who-i-am-main{
-
+.who-i-am-main {
   width: 100%;
   height: 820px;
-
 }
 
-.who-i-am-content{
-
+.who-i-am-content {
   width: 80%;
   margin-left: 20%;
   text-align: center;
   height: 820px;
-
 }
 
-.who-i-am-content h2{
+.who-i-am-content h2 {
   border: solid rgb(161, 185, 190) 2px;
   color: rgb(161, 185, 190);
   width: 30%;
   margin-left: 35%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   padding-top: 1%;
   padding-bottom: 1%;
   text-transform: capitalize;
 }
 
-.who-i-am-content h2:hover{
-    border: solid white 2px;
-    color: white;
-   background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+.who-i-am-content h2:hover {
+  border: solid white 2px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
-.who-i-am-content img{
+.who-i-am-content img {
   border: solid rgb(161, 185, 190) 2px;
   width: 200px;
   height: auto;
 }
 
-.who-i-am-content img:hover{
-    border: solid white 2px;
-
+.who-i-am-content img:hover {
+  border: solid white 2px;
 }
 
-#who-i-am-info{
-
+#who-i-am-info {
   border: solid rgb(161, 185, 190) 2px;
   color: rgb(161, 185, 190);
-  background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
   width: 75%;
   height: 50%;
   margin-left: 10%;
   overflow-x: hidden;
   margin-top: 2%;
   padding: 3%;
-
 }
 
-#who-i-am-info:hover{
-
-   border: solid white 2px;
-   background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
-
+#who-i-am-info:hover {
+  border: solid white 2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95));
 }

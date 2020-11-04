@@ -1,20 +1,18 @@
 import React from "react";
 import "./Projects.css";
-import Navbar2 from '../../Navbars/Navbar2/Navbar2.js';
+import Navbar2 from "../../Navbars/Navbar2/Navbar2.js";
 
-const Projects = ({onRouteChange}) => {
-
-    return (
-      <main className={`projects-main`}>
-      <Navbar2 onRouteChange = {onRouteChange}/>
-      <main className ={`projects-content`}>
+const Projects = ({ onRouteChange }) => {
+  return (
+    <main className={`projects-main`}>
+      <Navbar2 onRouteChange={onRouteChange} />
+      <main className={`projects-content`}>
         <section className={`projects-header`}>
           <h2>{`Projects`}</h2>
-           <a href = {`https://github.com/benowusulink`} className={`github-info`}>
+          <a href={`https://github.com/benowusulink`} className={`github-info`}>
             <ion-icon name="logo-github"></ion-icon>
             <p>benowusulink</p>
-            </a>
-          
+          </a>
         </section>
         <section className={`projects-div`}>
           <div className={`projects-div-1`}>
@@ -119,9 +117,8 @@ const Projects = ({onRouteChange}) => {
           </div>
         </section>
       </main>
-      </main>
-    );
-}
-  
+    </main>
+  );
+};
 
 export default Projects;

@@ -1,116 +1,103 @@
-.extras-home{
-
-	height: 700px;
-	width: 100%;
-	margin-left: 110%
+.extras-home {
+  height: 700px;
+  width: 100%;
+  margin-left: 110%;
 }
 
-.extras-home h2{
+.extras-home h2 {
   border: solid rgb(161, 185, 190) 2px;
   color: rgb(161, 185, 190);
   width: 30%;
   margin-left: 35%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   padding-top: 1%;
   padding-bottom: 1%;
   text-transform: capitalize;
 }
 
-.extras-home h2:hover{
-
-    border: solid white 2px;
-    color: white;
-   background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+.extras-home h2:hover {
+  border: solid white 2px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
-
-.extras-section{
-
-
-	display: flex;
-	flex-flow: column;
-	margin-top: 15%
+.extras-section {
+  display: flex;
+  flex-flow: column;
+  margin-top: 15%;
 }
 
-.extras-section-1{
-
-	
-	display: flex;
-	justify-content: space-around;
+.extras-section-1 {
+  display: flex;
+  justify-content: space-around;
 }
 
-.extras-section-1 article{
-	
-	cursor: pointer;
-	width: 250px;
-	padding-top: 3%;
-	height: 220px;
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-	color: rgb(161, 185, 190);
-	border: solid rgb(161, 185, 190) 2px;
-	overflow: hidden;
-	margin-left: 4%
+.extras-section-1 article {
+  cursor: pointer;
+  width: 250px;
+  padding-top: 3%;
+  height: 220px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  color: rgb(161, 185, 190);
+  border: solid rgb(161, 185, 190) 2px;
+  overflow: hidden;
+  margin-left: 4%;
 }
 
-.extras-section-1 article:hover{
-	color: white;
-	border: solid white 2px;
-	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+.extras-section-1 article:hover {
+  color: white;
+  border: solid white 2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
-.extras-section-1 article img{
-	width: 130px;
-	height: auto;
+.extras-section-1 article img {
+  width: 130px;
+  height: auto;
 }
 
-.extras-section-1 article h3{
-	margin-top: 7%;
-	cursor: pointer;
-	text-transform: uppercase;
+.extras-section-1 article h3 {
+  margin-top: 7%;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
-.extras-section-1 article h3:hover{
-	color: white
+.extras-section-1 article h3:hover {
+  color: white;
 }
-
 
 .extras-section-2 {
-
-	display: flex;
-	justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-.extras-section-2 article{
-	
-	cursor: pointer;
-	padding-top: 3%;
-	width: 250px;
-	margin-top: 4%;
-	margin-left: 3%;
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-	color: rgb(161, 185, 190);
-	border: solid rgb(161, 185, 190) 2px;
-	height: 220px;
+.extras-section-2 article {
+  cursor: pointer;
+  padding-top: 3%;
+  width: 250px;
+  margin-top: 4%;
+  margin-left: 3%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  color: rgb(161, 185, 190);
+  border: solid rgb(161, 185, 190) 2px;
+  height: 220px;
 }
 
-
-.extras-section-2 article:hover{
-	color: white;
-	border: solid white 2px;
-	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+.extras-section-2 article:hover {
+  color: white;
+  border: solid white 2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
-.extras-section-2 article img{
-	width: 130px;
-	height: auto
+.extras-section-2 article img {
+  width: 130px;
+  height: auto;
 }
 
-.extras-section-2 article h3{
-	
-	cursor: pointer;
-	text-transform: uppercase;
+.extras-section-2 article h3 {
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
-.extras-section-2 article h3:hover{
-	color: white
+.extras-section-2 article h3:hover {
+  color: white;
 }

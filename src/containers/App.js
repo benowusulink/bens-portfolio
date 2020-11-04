@@ -7,7 +7,6 @@ import WhoIAm from "../components/Main/who-i-am/Who-i-am.js";
 import Projects from "../components/Main/Projects/Projects.js";
 import WhatIknow from "../components/Main/what-i-know/What-i-know.js";
 
-
 class App extends Component {
   constructor() {
     super();
@@ -30,14 +29,12 @@ class App extends Component {
       case "WhoIAm":
         return (
           <div>
-           
             <WhoIAm onRouteChange={this.onRouteChange} />
           </div>
         );
       case "Projects":
         return (
           <div>
-          
             <Projects onRouteChange={this.onRouteChange} />
           </div>
         );
@@ -48,7 +45,7 @@ class App extends Component {
             <WhatIknow onRouteChange={this.onRouteChange} />
           </div>
         );
-     
+
       default:
         return (
           <div>

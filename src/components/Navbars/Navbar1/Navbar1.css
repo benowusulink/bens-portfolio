@@ -4,7 +4,11 @@
   height: 120px;
   display: flex;
   justify-content: flex-start;
-  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2), rgba(0, 0, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0)
+  );
   width: 100%;
 }
 
@@ -36,7 +40,6 @@
 }
 
 .link {
-
   width: 15%;
   height: 60%;
   text-align: center;
@@ -55,26 +58,17 @@
   text-transform: capitalize;
 }
 
-.git{ 
-  
+.git {
   margin-left: 25%;
-  margin-top: 3%
- }
+  margin-top: 3%;
+}
 
 .git a {
   color: rgb(154, 182, 161);
- 
-  font-size: 35px
+
+  font-size: 35px;
 }
 
-.git a:hover{
-  color: white
+.git a:hover {
+  color: white;
 }
-
-
-
-
-
-
-
-

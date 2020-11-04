@@ -8,11 +8,10 @@
   border: solid rgb(161, 185, 190) 2px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.99));
   text-align: center;
-  padding-bottom: 0
-
+  padding-bottom: 0;
 }
 
-#navbar2 img{
+#navbar2 img {
   cursor: pointer;
 }
 
@@ -29,7 +28,6 @@
   height: auto;
   margin-left: -14%;
   color: rgb(161, 185, 190);
- 
 }
 
 #nav-list-ul2 li h4 {
@@ -51,44 +49,35 @@
   text-decoration: underline;
 }
 
-.contact{
+.contact {
   border-top: rgb(161, 185, 190) solid 2px;
   width: 100%;
   height: auto;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
   margin-top: 30%;
-     color: white;
-  
+  color: white;
 }
 
-.info{
+.info {
   display: flex;
   justify-content: flex-start;
 
   width: 100%;
-
 }
 
-.info ion-icon{
+.info ion-icon {
   margin-top: 7%;
   margin-right: 5%;
   margin-left: 10%;
   font-size: 23px;
 }
 
-.git-logo ion-icon{
-color: rgb(154, 182, 161);
- 
-  font-size: 35px
+.git-logo ion-icon {
+  color: rgb(154, 182, 161);
+
+  font-size: 35px;
 }
 
-.git-logo ion-icon:hover{
-color: white;
- 
- 
+.git-logo ion-icon:hover {
+  color: white;
 }
-
-
-
-
-

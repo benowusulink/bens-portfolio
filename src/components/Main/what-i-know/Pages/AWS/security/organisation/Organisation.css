@@ -1,42 +1,38 @@
-.org-home{
-	
-	width: 80%;
-	margin-left: 20%;
-	height: 800px;
-	padding-top: 3%;
-
+.org-home {
+  width: 80%;
+  margin-left: 20%;
+  height: 800px;
+  padding-top: 3%;
 }
 
-.org-home h2{
-	border: solid rgb(161, 185, 190) 2px;
-	color: rgb(161, 185, 190);
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-	width: 30%;
-	margin-left: 35%;
-	text-transform: uppercase;
+.org-home h2 {
+  border: solid rgb(161, 185, 190) 2px;
+  color: rgb(161, 185, 190);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 30%;
+  margin-left: 35%;
+  text-transform: uppercase;
 }
 
-.org-home h2:hover{
-	border: solid white 2px;
-	color: white;
+.org-home h2:hover {
+  border: solid white 2px;
+  color: white;
 }
 
-.org-content{
-	border: solid rgb(161, 185, 190) 2px;
-	color: rgb(161, 185, 190);
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-	overflow-x: hidden;
-	margin-top: 10%;
-	width: 75%;
-	margin-left: 12.5%;
-	height: 500px;
-	padding: 2%
-
+.org-content {
+  border: solid rgb(161, 185, 190) 2px;
+  color: rgb(161, 185, 190);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  overflow-x: hidden;
+  margin-top: 10%;
+  width: 75%;
+  margin-left: 12.5%;
+  height: 500px;
+  padding: 2%;
 }
 
-.org-content:hover{
-	border: solid white 2px;
-	color: white;
-	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
-
+.org-content:hover {
+  border: solid white 2px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
