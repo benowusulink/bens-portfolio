@@ -1,0 +1,77 @@
+.aws-home{
+	
+	margin-left: 30%;
+	width: 80%;
+	margin-top: 3%;
+	height: 700px;
+}
+
+.aws-home h2 {
+	border: solid rgb(161, 185, 190) 2px;
+	color: rgb(161, 185, 190);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	width: 30%;
+	margin-left: 35%;
+	text-transform: uppercase;
+}
+
+.aws-home h2:hover{
+		border: solid white 2px;
+	color: white;
+	background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
+}
+
+
+.aws-section{
+	
+	margin-top: 4%
+}
+
+.aws-section-1{
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.aws-section-1 article{
+
+	width: 250px;
+	height: 250px;
+	margin-left: 6%;
+	cursor: pointer;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	color: rgb(161, 185, 190);
+	border: solid rgb(161, 185, 190) 2px;
+}
+
+.aws-section-1 article:hover{
+		color: white;
+	border: solid white 2px;
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+.aws-section-2{
+
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 6%
+}
+
+.aws-section-2 article{
+
+	width: 400px;
+	height: 250px;
+	margin-left: 6%;
+	cursor: pointer;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	color: rgb(161, 185, 190);
+	border: solid rgb(161, 185, 190) 2px;
+}
+
+.aws-section-2 article:hover{
+	color: white;
+	border: solid white 2px;
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+

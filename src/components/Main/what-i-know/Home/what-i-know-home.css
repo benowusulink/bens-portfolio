@@ -1,0 +1,49 @@
+.what-i-know {
+  width: 70%;
+  margin-left: 40%;
+  height: 800px;
+  overflow-x: hidden;
+ 
+}
+
+.what-i-know h2 {
+ border: solid rgb(161, 185, 190) 2px;
+  color: rgb(161, 185, 190);
+  width: 40%;
+  margin-left: 30%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-transform: capitalize;
+}
+
+.what-i-know-div {
+  margin-top: 5%;
+}
+
+.what-i-know-div-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.what-i-know-div-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.what-i-know-section {
+  border: solid rgb(161, 185, 190) 2px;
+  color: rgb(161, 185, 190);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 3%;
+  cursor: pointer;
+  padding: 2%;
+}
+
+.what-i-know-section:hover{
+  color: white;
+  border: solid white 2px;
+}
+

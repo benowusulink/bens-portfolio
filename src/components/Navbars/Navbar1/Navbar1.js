@@ -1,38 +1,35 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Navbar1.css";
 import logo from "./assets/logo.png";
 
-class Navbar1 extends Component {
-  render() {
+const Navbar1 = ({onRouteChange}) => {
+  
     return (
       <nav id={`navbar1`}>
-        <img src={logo} alt={`logo`} className={`logo-image`} />
+        <img src={logo} alt={`logo`} className={`logo-image`} 
+              onClick={()=>onRouteChange("Home")}/>
         <ul id={`nav-list-ul`}>
-          <li className>
-            <p>who i am</p>
+          <li className ={`link`}>
+            <p onClick={()=>onRouteChange("WhoIAm")}>
+            who i am</p>
           </li>
-          <li>
-            <p>projects</p>
+          <li className ={`link`}>
+            <p onClick={()=>onRouteChange("Projects")}>projects</p>
           </li>
-          <li>
-            <p>what i know</p>
+          <li className ={`link`}>
+            <p onClick={()=>onRouteChange("WhatIKnow")}>what i know</p>
+          </li>       
+          <li className ={`git`}>
+          <a href = "https://github.com/benowusulink">
+          <ion-icon name="logo-github"></ion-icon>
+          </a>
           </li>
-          <li>
-            <p>contact</p>
-          </li>
-          <li>
-            <a
-              href="https://github.com/benowusulink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-        </ul>
+
+         </ul> 
       </nav>
-    );
-  }
+    );  
 }
+
+
 
 export default Navbar1;

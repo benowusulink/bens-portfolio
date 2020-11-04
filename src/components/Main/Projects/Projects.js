@@ -1,16 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Projects.css";
+import Navbar2 from '../../Navbars/Navbar2/Navbar2.js';
 
-class Projects extends Component {
-  render() {
+const Projects = ({onRouteChange}) => {
+
     return (
-      <main className={`projects`}>
+      <main className={`projects-main`}>
+      <Navbar2 onRouteChange = {onRouteChange}/>
+      <main className ={`projects-content`}>
         <section className={`projects-header`}>
           <h2>{`Projects`}</h2>
-          <div className={`github-info`}>
+           <a href = {`https://github.com/benowusulink`} className={`github-info`}>
             <ion-icon name="logo-github"></ion-icon>
             <p>benowusulink</p>
-          </div>
+            </a>
+          
         </section>
         <section className={`projects-div`}>
           <div className={`projects-div-1`}>
@@ -115,8 +119,9 @@ class Projects extends Component {
           </div>
         </section>
       </main>
+      </main>
     );
-  }
 }
+  
 
 export default Projects;

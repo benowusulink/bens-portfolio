@@ -1,85 +1,52 @@
 import React, { Component } from "react";
 import "./What-i-know.css";
+import WhatIKnowHome from './Home/what-i-know-home.js';
+import FrontEnd from './Pages/Front-end/FrontEnd.js';
+import BackEnd from './Pages/Back-end/BackEnd.js';
+import Extras from './Pages/Extras/Extras.js';
+import AWS from './Pages/AWS/AWS.js';
+
+
 
 class WhatIKnow extends Component {
-  render() {
-    return (
-      <main className={`what-i-know`}>
-        <h2>{`what i know`}</h2>
-        <section className={`what-i-know-div`}>
-          <div className={`what-i-know-div-1`}>
-            <article className={`what-i-know-section`}>
-              <h4>Front End</h4>
-              <img src={``} alt={`what-i-know-1`} />
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-            </article>
-            <article className={`what-i-know-section`}>
-              <h4>Back End</h4>
-              <img src={``} alt={`what-i-know-2`} />
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-            </article>
-          </div>
 
-          <div className={`what-i-know-div-2`}>
-            <article className={`what-i-know-section`}>
-              <h4>Extras</h4>
-              <img src={``} alt={`what-i-know-3`} />
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-            </article>
-            <article className={`what-i-know-section`}>
-              <h4>AWS</h4>
-              <img src={``} alt={`what-i-know-4`} />
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-              <p>
-                Our mission: to help people learn to code for free. We
-                accomplish this by creating
-              </p>
-            </article>
-          </div>
-        </section>
-      </main>
-    );
+  constructor(){
+    super();
+    this.state = {route: ""};
   }
-}
+
+  onRouteChange = (route) =>{
+
+      this.setState({route: route})
+  }
+
+  render() {
+
+    switch (this.state.route) {
+
+      case "FrontEnd":
+      return(
+        <FrontEnd />
+        )
+      case "AWS":
+      return(
+        <AWS />
+        )
+      case "Extras":
+      return(
+        <Extras />
+        )
+      case "BackEnd":
+      return(
+        <BackEnd />
+      )
+        default:
+        return(
+                      
+          <WhatIKnowHome onRouteChange={this.onRouteChange}/>
+         
+          )
+  
+}}}
 
 export default WhatIKnow;

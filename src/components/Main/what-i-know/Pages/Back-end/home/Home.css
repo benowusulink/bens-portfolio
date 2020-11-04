@@ -1,0 +1,117 @@
+.back-end-home{
+
+	height: 700px;
+	width: 100%;
+	margin-left: 60%
+}
+
+.back-end-home h2{
+  border: solid rgb(161, 185, 190) 2px;
+  color: rgb(161, 185, 190);
+  width: 30%;
+  margin-left: 35%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-transform: capitalize;
+}
+
+.back-end-home h2:hover{
+
+    border: solid white 2px;
+    color: white;
+   background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+
+.back-end-section{
+
+
+	display: flex;
+	flex-flow: column;
+	margin-top: 15%
+}
+
+.back-end-section-1{
+
+	
+	display: flex;
+	justify-content: space-around;
+}
+
+.back-end-section-1 article{
+	
+	cursor: pointer;
+	width: 250px;
+	padding-top: 3%;
+	height: 220px;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	color: rgb(161, 185, 190);
+	border: solid rgb(161, 185, 190) 2px;
+	overflow: hidden;
+	margin-left: 4%
+}
+
+.back-end-section-1 article:hover{
+	color: white;
+	border: solid white 2px;
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+.back-end-section-1 article img{
+	width: 130px;
+	height: auto;
+}
+
+.back-end-section-1 article h3{
+	margin-top: 7%;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.back-end-section-1 article h3:hover{
+	color: white
+}
+
+
+.back-end-section-2 {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.back-end-section-2 article{
+	
+	cursor: pointer;
+	padding-top: 3%;
+	width: 250px;
+	margin-top: 4%;
+	margin-left: 3%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	color: rgb(161, 185, 190);
+	border: solid rgb(161, 185, 190) 2px;
+	height: 220px;
+}
+
+
+.back-end-section-2 article:hover{
+	color: white;
+	border: solid white 2px;
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+.back-end-section-2 article img{
+	width: 130px;
+	height: auto
+}
+
+.back-end-section-2 article h3{
+	
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.back-end-section-2 article h3:hover{
+	color: white
+}
+

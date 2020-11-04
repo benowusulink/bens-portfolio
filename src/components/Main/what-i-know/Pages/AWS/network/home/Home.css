@@ -1,0 +1,62 @@
+.network-home{
+	
+	width: 100%;
+	margin-left: 70%;
+	height: 700px;
+}
+
+.network-home h2{
+	border: solid rgb(161, 185, 190) 2px;
+  color: rgb(161, 185, 190);
+  width: 30%;
+  margin-left: 35%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-transform: capitalize;
+}
+
+.network-home h2:hover{
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+	border: solid white 2px;
+  color: white;
+}
+
+.network-section-1 {
+	
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 19%
+}
+
+.network-section-2 {
+
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 10%
+}
+
+.network-section article {
+	
+	width: 350px;
+	height: 250px;
+	margin-left: 4%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	color: rgb(161, 185, 190);
+	border: solid rgb(161, 185, 190) 2px;
+	cursor: pointer;
+}
+
+.network-section article:hover {
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+	color: white;
+	border: solid white 2px;
+}
+
+.network-section img{
+	width: 100px;
+	height: auto;
+	margin-top: 5%
+}
