@@ -1,8 +1,9 @@
 .html-home {
-  width: 80%;
-  margin-left: 20%;
-  height: 800px;
-  padding-top: 3%;
+  margin-left: 21%;
+  width: 75%;
+  height: auto;
+  overflow-x: hidden;
+  padding-top: 1%;
 }
 
 .html-home h2 {
@@ -19,20 +20,68 @@
   color: white;
 }
 
+.tools {
+  border: solid rgb(161, 185, 190) 2px;
+  width: 30%;
+  height: 150px;
+  margin-left: 35%;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  overflow-x: hidden;
+}
+
+.tools:hover {
+  border: solid 2px white;
+  background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0));
+}
+.tools h3 {
+  margin-top: 0%;
+  text-decoration: underline;
+}
+
+.tools ul {
+  margin-bottom: 0%;
+  padding-left: 0%;
+}
+
+.tools ul li {
+  text-align: left;
+  text-decoration: none;
+  color: rgb(161, 185, 190);
+}
+
+.tools ul li a {
+  color: grey;
+}
+
+.tools ul li a:hover {
+  color: white;
+}
+
 .html-content {
   border: solid rgb(161, 185, 190) 2px;
   color: rgb(161, 185, 190);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  overflow-x: hidden;
-  margin-top: 10%;
+  overflow: scroll;
+  margin-top: 3%;
   width: 75%;
   margin-left: 12.5%;
-  height: 500px;
+  height: 400px;
   padding: 2%;
+  text-align: left;
 }
 
 .html-content:hover {
   border: solid white 2px;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.center {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.border-btm {
+  border-bottom: solid white 2px;
 }

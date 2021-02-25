@@ -9,7 +9,7 @@ import AWS from "./Pages/AWS/AWS.js";
 class WhatIKnow extends Component {
   constructor() {
     super();
-    this.state = { route: "" };
+    this.state = { route: "", backButton: "" };
   }
 
   onRouteChange = (route) => {
@@ -19,7 +19,7 @@ class WhatIKnow extends Component {
   render() {
     switch (this.state.route) {
       case "FrontEnd":
-        return <FrontEnd />;
+        return <FrontEnd onRouteChange={this.onRouteChange} />;
       case "AWS":
         return <AWS />;
       case "Extras":

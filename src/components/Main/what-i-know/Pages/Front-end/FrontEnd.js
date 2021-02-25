@@ -17,7 +17,7 @@ class FrontEnd extends Component {
     this.setState({ route: route });
   };
 
-  render() {
+  render(props) {
     switch (this.state.route) {
       case "HTML":
         return <HTML />;

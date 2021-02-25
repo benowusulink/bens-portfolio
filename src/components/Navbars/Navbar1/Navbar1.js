@@ -12,17 +12,21 @@ const Navbar1 = ({ onRouteChange }) => {
         onClick={() => onRouteChange("Home")}
       />
       <ul id={`nav-list-ul`}>
-        <li className={`link`}>
-          <p onClick={() => onRouteChange("WhoIAm")}>who i am</p>
+        <li className={`link`} onClick={() => onRouteChange("WhoIAm")}>
+          <p>who i am</p>
         </li>
-        <li className={`link`}>
-          <p onClick={() => onRouteChange("Projects")}>projects</p>
+        <li className={`link`} onClick={() => onRouteChange("Projects")}>
+          <p>projects</p>
         </li>
-        <li className={`link`}>
-          <p onClick={() => onRouteChange("WhatIKnow")}>what i know</p>
+        <li className={`link`} onClick={() => onRouteChange("WhatIKnow")}>
+          <p>what i know</p>
         </li>
         <li className={`git`}>
-          <a href="https://github.com/benowusulink">
+          <a
+            href="https://github.com/benowusulink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>

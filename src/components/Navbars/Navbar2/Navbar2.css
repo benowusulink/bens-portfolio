@@ -81,3 +81,9 @@
 .git-logo ion-icon:hover {
   color: white;
 }
+
+@media only screen and (max-width: 1300px) {
+  .logo-image {
+    height: 150px;
+  }
+}

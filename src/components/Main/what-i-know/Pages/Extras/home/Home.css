@@ -1,7 +1,7 @@
 .extras-home {
-  height: 700px;
-  width: 100%;
-  margin-left: 110%;
+  width: 70%;
+  margin-left: 25%;
+  height: auto;
 }
 
 .extras-home h2 {
@@ -24,7 +24,7 @@
 .extras-section {
   display: flex;
   flex-flow: column;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 .extras-section-1 {
@@ -40,7 +40,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   color: rgb(161, 185, 190);
   border: solid rgb(161, 185, 190) 2px;
-  overflow: hidden;
+  overflow-x: hidden;
   margin-left: 4%;
 }
 

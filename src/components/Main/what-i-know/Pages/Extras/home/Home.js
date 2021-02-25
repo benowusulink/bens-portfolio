@@ -23,6 +23,7 @@ const ExtrasHome = ({ onRouteChange }) => {
             onClick={() => {
               onRouteChange("Sessions");
             }}
+            className={"jjwt"}
           >
             <img src={jwt} alt={`Sessions`} />
             <h3> sessions </h3>

@@ -8,13 +8,19 @@ class Home extends Component {
     return (
       <main className={`home`}>
         <div className={`header-text`}>
-          <h1>welcome to bens website</h1>
+          <h1>Hello ! </h1>
+          <h1>Welcome to Ben's personal website</h1>
           <h3>
-            When you develop a mockup page or backend API is not ready for data
-            fetching and you have to make Frontend Development with static data
-            until it comes, react-lorem-ipsum will create your gibberish texts
-            for you
+            My name is Benjamin and thank you for visiting my online portfolio.
+            I am a developer who has experience working on the front and back
+            end. Please take the time to explore my website and I hope you like
+            what you see.
           </h3>
+          <h6>
+            {" "}
+            This website was created by me from scratch with React and deployed
+            via AWS.
+          </h6>
         </div>
         <img src={profile} className={`profile-pic`} alt={`profile-pic`} />
         <Footer className={`footer`} />
