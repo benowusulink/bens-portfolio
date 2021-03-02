@@ -1,8 +1,8 @@
 .what-i-know {
   width: 70%;
   margin-left: 25%;
-  padding-bottom: 100px;
-  overflow-y: hidden;
+  height: auto;
+  padding-bottom: 10% 
 }
 
 .what-i-know h2 {
