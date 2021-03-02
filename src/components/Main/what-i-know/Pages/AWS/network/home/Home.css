@@ -2,7 +2,7 @@
   width: 75%;
   margin-left: 20%;
   height: auto;
-  padding-bottom: 20%
+  padding-bottom: 40%;
 }
 
 .network-home h2 {
@@ -26,14 +26,14 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 19%;
+  margin-top: 5%;
 }
 
 .network-section-2 {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .network-section article {
