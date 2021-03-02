@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5fadef7.chunk.css",
+    "main.css": "/static/css/main.392fcb94.chunk.css",
     "main.js": "/static/js/main.0d4304ee.chunk.js",
     "main.js.map": "/static/js/main.0d4304ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94364a73.js",
@@ -8,9 +8,9 @@
     "static/js/2.d64ff650.chunk.js": "/static/js/2.d64ff650.chunk.js",
     "static/js/2.d64ff650.chunk.js.map": "/static/js/2.d64ff650.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.46fc745f46893aec19fc2ebc0cf903e5.js": "/precache-manifest.46fc745f46893aec19fc2ebc0cf903e5.js",
+    "precache-manifest.89bcf191179d61634502aaad91cced8f.js": "/precache-manifest.89bcf191179d61634502aaad91cced8f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c5fadef7.chunk.css.map": "/static/css/main.c5fadef7.chunk.css.map",
+    "static/css/main.392fcb94.chunk.css.map": "/static/css/main.392fcb94.chunk.css.map",
     "static/js/2.d64ff650.chunk.js.LICENSE.txt": "/static/js/2.d64ff650.chunk.js.LICENSE.txt",
     "static/media/amazon-database.svg": "/static/media/amazon-database.cf768273.svg",
     "static/media/amazon-s3.svg": "/static/media/amazon-s3.8e30cc51.svg",
@@ -66,7 +66,7 @@
   "entrypoints": [
     "static/js/runtime-main.94364a73.js",
     "static/js/2.d64ff650.chunk.js",
-    "static/css/main.c5fadef7.chunk.css",
+    "static/css/main.392fcb94.chunk.css",
     "static/js/main.0d4304ee.chunk.js"
   ]
 }
