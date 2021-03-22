@@ -149,7 +149,7 @@ const WhoIAm = ({ onRouteChange }) => {
               {`Company: Sparta Global`}
               <br />
               <br />
-              {`Date: Feb 2018 - Nov 2019`}
+              {`Date: Jan 2018 - Nov 2019`}
               <br />
               <br />
               {`Role: Junior Developer`}

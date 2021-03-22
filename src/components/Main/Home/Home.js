@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import profile from "./assets/profile.png";
+import profile from "./assets/profile.svg";
 import Footer from "../../Footer/Footer.js";
 
 class Home extends Component {
