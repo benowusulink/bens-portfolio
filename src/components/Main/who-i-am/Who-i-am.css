@@ -61,7 +61,7 @@
   width: 75%;
   height: 400px;
   margin-left: 10%;
-  overflow-x: scroll;
+  overflow-y: scroll;
   margin-top: 2%;
   padding: 3%;
 }

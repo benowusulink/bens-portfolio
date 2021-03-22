@@ -2,6 +2,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Nunito", sans-serif;
+
 }
 
 body {
@@ -21,6 +22,20 @@ body {
   width: 1px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: blue; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
